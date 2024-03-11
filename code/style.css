@@ -1,0 +1,22 @@
+header[title=záhlaví]{
+    font-size: 30px;
+    background-color: aqua;
+}
+
+header h1{/*header je rodič h1*/
+    color: blueviolet;
+}
+
+header[title] h2{
+    color: blue;
+}
+
+menu > li { /* přímý potomek, dítě*/
+    list-style: none;
+}
+
+header + p{ /*+ následující sourozenec, -další osurozenec*/
+    color: brown;
+}
+
+/* * -vybere všechny prvky na stránce*/
